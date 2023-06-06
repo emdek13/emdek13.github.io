@@ -90,6 +90,11 @@ main {
     height: 80vh;
 }
 
+.agent-container ~ .agent-container {
+    padding-top: 7vh;
+    border-top: 3px solid #b7b3ac;
+}
+
 .agent {
     width: 30%;
 }
