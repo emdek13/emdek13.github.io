@@ -44,9 +44,10 @@ ul.menu li.active {
     background-color: #222;
 }
 
-ul.menu li a {
+ul.menu a li {
     color: white;
     text-decoration: none;
+    transition: 100ms;
 }
 
 ul.menu li a:hover, ul.menu li:hover {
