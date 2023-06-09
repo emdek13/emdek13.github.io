@@ -40,8 +40,17 @@ ul.menu li {
 ul.menu li.active {
     display: inline-block;
     padding: 20px;
+    text-transform: uppercase;
     font-weight: 900;
-    background-color: #222;
+    background-color: #ff4655;
+}
+
+ul.menu li.active:hover {
+    display: inline-block;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    background-color: hsl(355, 50%, 50%);
 }
 
 ul.menu a li {
