@@ -63,7 +63,7 @@ header h1 {
 main {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 5vh;
+    padding: 5vh 5vh 2vh;
     background-color: #532f28;
     color: white;
 }
@@ -135,11 +135,30 @@ p.description {
 
 .seeus h2 {
     font-size: 5rem;
-    margin-bottom: 2vh;
 }
 
 .seeus p {
+    margin: 2vh 0;
     font-size: 2rem;
+}
+
+.btn {
+    display: block;
+    margin: 4vh auto 0;
+    padding: 20px;
+    font-size: 2rem;
+    max-width: 15%;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid white;
+    transition: .3s;
+}
+
+.btn:hover {
+    background-color: white;
+    letter-spacing: 2px;
+    color: #222;
 }
 
 span.bold {
@@ -149,7 +168,6 @@ span.bold {
 footer {
     text-align: center;
     background-color: black;
-    margin-top: 34vh;
     padding: 2vh;
     color: #777;
     font-size: 1.8rem;
