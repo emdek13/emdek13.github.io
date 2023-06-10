@@ -18,7 +18,7 @@ nav {
     margin: 2vh auto;
     text-align: center;
     font-size: 0;
-    background-color: #222;
+    background-color: #532f28;
     border-radius: 10px;
 }
 
@@ -39,12 +39,12 @@ nav ul li a {
 
 nav ul li a:hover {
     color: white;
-    background-color: #555;
+    background-color: #683b32;
 }
 
 header {
     height: 30vh;
-    background-image: url(kawatlo.jpg);
+    background-image: url(img/kawatlo.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -63,14 +63,83 @@ header h1 {
 main {
     max-width: 1440px;
     margin: 0 auto;
+    padding: 5vh;
+    background-color: #532f28;
+    color: white;
 }
 
 p.description {
-    margin: 5vh;
     text-align: center;
     font-size: 2.5rem;
     padding-bottom: 5vh;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
+}
+
+
+.features {
+    padding: 5vh 0;
+    border-bottom: 2px solid white;
+}
+
+.feature {
+    display: flex;
+    margin-bottom: 5vh;
+    align-items: center;
+    height: 25vh;
+    flex-direction: row;
+    font-size: 0;
+    
+}
+
+.feature-img {
+    width: 25%;
+    height: 100%;
+    background-image: url(img/kawa1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 0 black;
+}
+
+.img2 {
+    background-image: url(img/superatmosfera.jpg);
+}
+
+.img3 {
+    background-image: url(img/cena.jpg);
+}
+
+.feature-description {
+    width: 75%;
+    text-align: right;
+    padding-left: 5vw;
+    font-size: 2rem;
+}
+
+.left {
+    text-align: left;
+    padding-left: 0;
+    padding-right: 5vw;
+}
+
+.feature-description h1 {
+    font-size: 3.5rem;
+    margin-bottom: 2vh;
+}
+
+
+.seeus {
+    text-align: center;
+    margin: 5vh 0;
+}
+
+.seeus h2 {
+    font-size: 5rem;
+    margin-bottom: 2vh;
+}
+
+.seeus p {
+    font-size: 2rem;
 }
 
 span.bold {
