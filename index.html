@@ -2,169 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Oswald:wght@500&display=swap" rel="stylesheet">
-    <meta name="description" content="Opis wszystkich postaci z VALORANT!">
-    <meta name="author" content="emdek">
-    <title>VALORANT - opisy postaci</title>
+    <title>Document</title>
+    <style>
+       * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       }
+
+       html {
+        font-family: Arial, Helvetica, sans-serif;
+       }
+       
+       nav {
+        font-size: 0;
+        text-align: center;
+        margin-top: 10vh;
+       }
+       a {
+        width: 17%;
+        display: inline-block;
+        font-size: 24px;
+        color: black;
+        text-decoration: none;
+        padding: 30px 15px;
+        border: 5px solid black;
+        transition: 0.3s;
+       }
+
+       a:hover {
+        background-color: black;
+        color: white;
+        letter-spacing: 2px;
+       }
+
+       .btn {
+        margin-right: 20px;
+       }
+    </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <p class="navtext">Role:</p>
-            <ul class="menu">
-                <a href="#"><li class="active">Inicjator</li></a>
-                <a href="controler.html"><li>Kontroler</li></a>
-                <a href="#"><li>Szturmowiec</li></a>
-                <a href="#"><li>Sentinel</li></a>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <div class="agent-container">
-            <div class="agent">
-                <img src="img/kayo.png" alt="kayo">
-            </div>
-
-            <div class="opis-container">
-                <p class="agent-name"><img src="img/initiator.png" alt="inicjator" class="roleicon">KAY/O</p>
-                <p class="opis"><span class="bold"><span class="letter-space">//</span> POCHODZENIE: zrobiony przez Brimstone'a</span></p>
-                <p class="opis"><span class="bold"><span class="letter-space">//</span>Biografia</span></p>
-                <p class="opis"><span class="bold">KAY/O</span> jest machiną wojenną stworzoną w jednym celu: zneutralizowania Promienistych. 
-                    Jego moc tłumienia wrogich umiejętności ogranicza bojowe możliwości przeciwników, 
-                    zapewniając KAY/O i jego sojusznikom niesamowitą przewagę.</p>
-                <p class="opis">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Repudiandae incidunt libero at, vero doloribus officia deleniti autem dolores laudantium nesciunt a quis 
-                    cumque fuga, sequi tenetur itaque impedit eligendi. Rem?</p>
-                <p class="opis">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Repudiandae incidunt libero at, vero doloribus officia deleniti autem dolores laudantium nesciunt a quis 
-                    cumque fuga, sequi tenetur itaque impedit eligendi. Rem?</p>
-                <p class="opis">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Repudiandae incidunt libero at, vero doloribus officia deleniti autem dolores laudantium nesciunt a quis 
-                    cumque fuga, sequi tenetur itaque impedit eligendi. Rem?</p>
-                <p class="opis">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Repudiandae incidunt libero at, vero doloribus officia deleniti autem dolores laudantium nesciunt a quis 
-                    cumque fuga, sequi tenetur itaque impedit eligendi. Rem?</p>
-                
-                
-            </div>
-        </div>
-
-        <div class="agent-container">
-            <div class="agent">
-                <img src="img/skye.png" alt="skye">
-            </div>
-
-            <div class="opis-container">
-                <p class="agent-name"><img src="img/initiator.png" alt="inicjator" class="roleicon">Skye</p>
-                <p class="opis"><span class="bold"><span class="letter-space">//</span> POCHODZENIE: Australia</span></p>
-                <p class="opis"><span class="bold"><span class="letter-space">//</span>Biografia</span></p>
-                <p class="opis">Pochodząca z Australii 
-                    Skye oraz wataha jej stworów utorują wam drogę przez terytorium wroga. 
-                    Osłabiające wroga sługi oraz moc leczenia innych sprawią, że Skye wzmocni każdą drużynę i 
-                    zapewni jej większe bezpieczeństwo..</p>
-                <p class="opis">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Repudiandae incidunt libero at, vero doloribus officia deleniti autem dolores laudantium nesciunt a quis 
-                    cumque fuga, sequi tenetur itaque impedit eligendi. Rem?</p>
-                <p class="opis">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Repudiandae incidunt libero at, vero doloribus officia deleniti autem dolores laudantium nesciunt a quis 
-                    cumque fuga, sequi tenetur itaque impedit eligendi. Rem?</p>
-                <p class="opis">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Repudiandae incidunt libero at, vero doloribus officia deleniti autem dolores laudantium nesciunt a quis 
-                    cumque fuga, sequi tenetur itaque impedit eligendi. Rem?</p>
-                <p class="opis">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Repudiandae incidunt libero at, vero doloribus officia deleniti autem dolores laudantium nesciunt a quis 
-                    cumque fuga, sequi tenetur itaque impedit eligendi. Rem?</p>
-            </div>
-        </div>
-
-        <div class="agent-container">
-            <div class="agent">
-                <img src="img/sova.png" alt="sova">
-            </div>
-
-            <div class="opis-container">
-                <p class="agent-name"><img src="img/initiator.png" alt="inicjator" class="roleicon">Sova</p>
-                <p class="opis"><span class="bold"><span class="letter-space">//</span> POCHODZENIE: Rosja</span></p>
-                <p class="opis"><span class="bold"><span class="letter-space">//</span>Biografia</span></p>
-                <p class="opis">Urodzony w objęciach wiecznej zimy rosyjskiej tundry Sova śledzi, namierza i eliminuje wrogów z 
-                    bezwzględną skutecznością i precyzją. Jego niestandardowy łuk w połączeniu z niesamowitymi umiejętnościami 
-                    tropiącymi sprawiają, że nie ma przed nim ucieczki.
-                </p>
-                <p class="opis">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Repudiandae incidunt libero at, vero doloribus officia deleniti autem dolores laudantium nesciunt a quis 
-                    cumque fuga, sequi tenetur itaque impedit eligendi. Rem?</p>
-                <p class="opis">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Repudiandae incidunt libero at, vero doloribus officia deleniti autem dolores laudantium nesciunt a quis 
-                    cumque fuga, sequi tenetur itaque impedit eligendi. Rem?</p>
-                <p class="opis">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Repudiandae incidunt libero at, vero doloribus officia deleniti autem dolores laudantium nesciunt a quis 
-                    cumque fuga, sequi tenetur itaque impedit eligendi. Rem?</p>
-                <p class="opis">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Repudiandae incidunt libero at, vero doloribus officia deleniti autem dolores laudantium nesciunt a quis 
-                    cumque fuga, sequi tenetur itaque impedit eligendi. Rem?</p>
-            </div>
-        </div>
-
-        <div class="agent-container">
-            <div class="agent">
-                <img src="img/fade.png" alt="fade">
-            </div>
-
-            <div class="opis-container">
-                <p class="agent-name"><img src="img/initiator.png" alt="inicjator" class="roleicon">Fade</p>
-                <p class="opis"><span class="bold"><span class="letter-space">//</span> POCHODZENIE: Turcja</span></p>
-                <p class="opis"><span class="bold"><span class="letter-space">//</span>Biografia</span></p>
-                <p class="opis">Turecka łowczyni nagród Fade czerpie z czystej mocy koszmarów, aby posiąść sekrety wrogów. Dzięki swojemu zestrojeniu z przerażeniem dopada upatrzone cele i ujawnia najgłębiej skrywane przez nie lęki, zanim zmiażdży je w mroku.
-                </p>
-                <p class="opis">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Repudiandae incidunt libero at, vero doloribus officia deleniti autem dolores laudantium nesciunt a quis 
-                    cumque fuga, sequi tenetur itaque impedit eligendi. Rem?</p>
-                <p class="opis">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Repudiandae incidunt libero at, vero doloribus officia deleniti autem dolores laudantium nesciunt a quis 
-                    cumque fuga, sequi tenetur itaque impedit eligendi. Rem?</p>
-                <p class="opis">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Repudiandae incidunt libero at, vero doloribus officia deleniti autem dolores laudantium nesciunt a quis 
-                    cumque fuga, sequi tenetur itaque impedit eligendi. Rem?</p>
-                <p class="opis">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Repudiandae incidunt libero at, vero doloribus officia deleniti autem dolores laudantium nesciunt a quis 
-                    cumque fuga, sequi tenetur itaque impedit eligendi. Rem?</p>
-            </div>
-        </div>
-
-        <div class="agent-container">
-            <div class="agent">
-                <img src="img/gekko.png" alt="fade">
-            </div>
-
-            <div class="opis-container">
-                <p class="agent-name"><img src="img/initiator.png" alt="inicjator" class="roleicon">Gekko</p>
-                <p class="opis"><span class="bold"><span class="letter-space">//</span> POCHODZENIE: Stany Zjednoczone</span></p>
-                <p class="opis"><span class="bold"><span class="letter-space">//</span>Biografia</span></p>
-                <p class="opis">Gekko Angeleno przewodzi zgranej ekipie groźnych stworzeń. Jego kumple szarżują przed siebie, odrzucając wrogów z drogi, a Gekko ściga ich, by przegrupowali się i ponownie ruszyli do akcji.</p>
-                <p class="opis">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Repudiandae incidunt libero at, vero doloribus officia deleniti autem dolores laudantium nesciunt a quis 
-                    cumque fuga, sequi tenetur itaque impedit eligendi. Rem?</p>
-                <p class="opis">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Repudiandae incidunt libero at, vero doloribus officia deleniti autem dolores laudantium nesciunt a quis 
-                    cumque fuga, sequi tenetur itaque impedit eligendi. Rem?</p>
-                <p class="opis">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Repudiandae incidunt libero at, vero doloribus officia deleniti autem dolores laudantium nesciunt a quis 
-                    cumque fuga, sequi tenetur itaque impedit eligendi. Rem?</p>
-                <p class="opis">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Repudiandae incidunt libero at, vero doloribus officia deleniti autem dolores laudantium nesciunt a quis 
-                    cumque fuga, sequi tenetur itaque impedit eligendi. Rem?</p>
-            </div>
-        </div>
-    </main>
-
-    <footer>
-        <p>designed by emdek 2023 &copy;</p>
-    </footer>
+    <nav>
+        <a href="valorant.html" class="btn">VALORANT - opisy</a>
+        <a href="kawiarnia.html"> kawiarnia</a>
+    </nav>
 </body>
 </html>
