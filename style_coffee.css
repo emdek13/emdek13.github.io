@@ -13,6 +13,10 @@ html {
 
 }
 
+body {
+    background-color: #201313;
+}
+
 nav {
     max-width: 1440px;
     margin: 2vh auto;
@@ -222,6 +226,15 @@ footer a:hover {
         text-align: center;
         padding: 0 2vw;
         font-size: 2rem;
+    }
+
+    .btn {
+        max-width: 250px;
+    }
+
+    footer a {
+        width: 250px;
+        max-width: 250px;
     }
 
 
