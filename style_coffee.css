@@ -60,6 +60,7 @@ header h1 {
     font-weight: 700;
 }
 
+
 main {
     max-width: 1440px;
     margin: 0 auto;
@@ -120,6 +121,10 @@ p.description {
     text-align: left;
     padding-left: 0;
     padding-right: 5vw;
+}
+
+.flexleft {
+    flex-direction: row-reverse;
 }
 
 .feature-description h1 {
@@ -188,4 +193,30 @@ footer a {
 footer a:hover {
     background-color: #ddd;
     color: #222;
+}
+
+@media screen and (max-width: 1080px) {
+    header h1 {
+        font-size: 4vw;
+    }
+
+    .feature {
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .feature-img {
+        width: 100%;
+        height: 50%;
+        margin-bottom: 25px;
+    }
+
+    .feature-description {
+        width: 100%;
+        text-align: center;
+        padding: 0 2vw;
+        font-size: 2rem;
+    }
+
+
 }
