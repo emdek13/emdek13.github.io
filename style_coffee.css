@@ -64,7 +64,6 @@ header h1 {
     font-weight: 700;
 }
 
-
 main {
     max-width: 1440px;
     margin: 0 auto;
@@ -106,6 +105,7 @@ p.description {
     box-shadow: 0 0 3px 0 black;
 }
 
+
 .img2 {
     background-image: url(img/superatmosfera.jpg);
 }
@@ -120,6 +120,7 @@ p.description {
     padding-left: 5vw;
     font-size: 2rem;
 }
+
 
 .left {
     text-align: left;
